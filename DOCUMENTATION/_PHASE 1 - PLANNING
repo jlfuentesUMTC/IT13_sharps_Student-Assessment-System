@@ -1,0 +1,1 @@
+Planning – Includes an overview and understanding of the project.
