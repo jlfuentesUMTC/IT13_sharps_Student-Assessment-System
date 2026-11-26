@@ -1,0 +1,56 @@
+# Team Agreement
+
+## Project
+Student Assessment System with Item Analysis (IT 13 C# Final Project)
+
+## Reminders for Everyone
+- Code must be original. Plagiarism means project failure.
+- Every member must contribute. The commit history will be checked.
+- Commit regularly, not one big upload at the end.
+- The app must not crash.
+- Item analysis needs at least 30 students of data.
+- Most points: Item Analysis (25%), OOP and Design Patterns (20%),
+  Test Creation and Administration (15%), Statistical Accuracy (15%).
+  The UI is only 5%.
+
+## Members and Roles
+| Name    | Role                    | Responsible for                                          |
+|---------|-------------------------|----------------------------------------------------------|
+| JL      | Lead / Git manager      | Sets up the repo, merges pull requests, tracks deadlines |
+| Jedmarr | Database owner          | ERD, SQL scripts, seed data, final backup                |
+| Joenard | Logic / statistics owner| Managers, scoring, item analysis formulas                |
+| Harry   | UI owner                | WinForms screens, test-taking interface                  |
+| Mix     | QA / documentation owner| UML, project description, tests, README                  |
+
+Everyone still writes code.
+
+## Backup Rule
+- If someone is absent, whoever is available takes over their work.
+
+## Communication
+- Chat platform: Messenger
+- Check-in: every day
+- Response time: reply ASAP
+
+## Working Rules
+- Everyone commits under their own GitHub account.
+- Every member writes code in at least two areas (for example UI and
+  database), so the commit history shows fair contribution.
+- Every pull request gets one reviewer.
+- Everyone must be able to explain their own code.
+
+## Absence / Conflict Plan
+- Inform the team first.
+- Don't leave the team hanging.
+
+## Availability
+| Name    | Hours/week | Unavailable dates |
+|---------|------------|-------------------|
+| JL      |            | Weekend           |
+| Jedmarr |            |                   |
+| Joenard |            |                   |
+| Harry   |            |                   |
+| Mix     |            |                   |
+
+## Decisions Made On
+- Friday, November 20, 2026
