@@ -1,0 +1,69 @@
+# Technical Decisions
+
+## Project
+Student Assessment System with Item Analysis (IT 13 C# Final Project)
+
+## Reminders for Everyone
+- Use the same tools and versions. No upgrading on your own.
+- Do not change the C# version (stay on 7.3).
+- No passwords or personal server names on GitHub.
+- If a laptop check fails, tell the team in Messenger right away.
+
+## Platform
+- Framework: .NET Framework 4.8, WinForms
+- IDE: Visual Studio 2022 Community
+- C# version: 7.3 (default, do not change)
+- UI: plain WinForms, no third-party UI libraries
+
+## Database
+- SQL Server Express + SSMS
+- SQL Server version: ____ (ask the instructor, then record it here)
+- Database name: AssessmentDB
+- Data access: ADO.NET with repository classes
+- Connection string: in App.config, Windows Authentication
+- Backup: .bak file, plus .sql scripts
+
+## Packages (same versions for everyone)
+| Package           | Version | Used for          |
+|-------------------|---------|-------------------|
+| BCrypt.Net-Next   | ____    | Password hashing  |
+| NUnit             | ____    | Unit tests        |
+
+## Features
+- Charts: built-in System.Windows.Forms.DataVisualization
+- Rich text: RichTextBox
+- PDF (optional): Print to PDF
+- CSV (optional): StreamWriter
+
+## Statistics Rules
+- Difficulty (P) = correct / total
+  - Easy: P > 0.75
+  - Average: 0.25 to 0.75
+  - Difficult: P < 0.25
+- Upper and lower groups: top 27% and bottom 27% by total score
+- Discrimination (D) = upper correct / n - lower correct / n
+  - 0.40 and up: very good
+  - 0.30 to 0.39: good
+  - 0.20 to 0.29: marginal
+  - below 0.20: poor
+- Standard deviation: ____ (population or sample, pick one)
+- Zero responses: return "no data", never crash
+- Fewer than 30 students: show a warning
+
+## Coding Rules
+- Parameterized SQL only, never build queries by joining strings
+- Handle all errors with a friendly message and a log file
+- Naming: PascalCase for classes and methods, camelCase for variables
+- One class per file
+
+## Laptop Check (each member)
+| Name    | VS + .NET 4.8 | SSMS + @@VERSION | C# DB test | BCrypt | Chart | NUnit | Git |
+|---------|---------------|------------------|------------|--------|-------|-------|-----|
+| JL      |               |                  |            |        |       |       |     |
+| Jedmarr |               |                  |            |        |       |       |     |
+| Joenard |               |                  |            |        |       |       |     |
+| Harry   |               |                  |            |        |       |       |     |
+| Mix     |               |                  |            |        |       |       |     |
+
+## Decisions Made On
+- Monday, November 23, 2026
